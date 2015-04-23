@@ -24,6 +24,7 @@ int main( void )
 {
     int i, clock_get;
     pthread_t threads[3]; /* 쓰레드 아이디를 위한 변수 */
+    printf("%s", "historic");
     
     for ( i=0; i<4; i++ )  /* 쓰레드 생성 */
         // TODO: 스레드 생성하기
